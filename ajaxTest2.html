@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- <html lang="en" manifest="tasks.appcache"> -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Task list</title>
+	<style>
+		body {
+			margin: 20px;
+		}
+	</style>
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/ajax-test2.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#ajaxTest1').click(function() {
+				ajaxTest1();
+			});
+
+			$('#ajaxTest2').click(function() {
+				ajaxTest2();
+			});
+		});
+	</script>
+	<p>
+		<button id="ajaxTest1">Ajax Test 1</button>
+	</p>
+	<p>
+		<button id="ajaxTest2">Ajax Test 2</button>
+	</p>
+</head>
+<body>
+
+</body>
+</html>

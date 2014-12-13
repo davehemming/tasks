@@ -1,0 +1,23 @@
+CACHE MANIFEST
+# version 3
+
+tasks.html
+js/vendor/date.js
+js/jquery-2.1.1.js
+js/jquery-serialization.js
+js/vendor/jquery-tmpl.js
+js/vendor/jquery.validate.js
+js/vendor/jquery.csv-0.71.js
+js/tasks-controller.js
+js/tasks-indexeddb.js
+js/tasks-webstorage.js
+styles/tasks.css
+type/MonsieurLaDoulaise-Regular.ttf
+js/recordCounter.js
+
+FALLBACK:
+js/tasks-webstorage.js js/tasks-webstorage.js
+js/tasks-indexeddb.js js/tasks-indexeddb.js
+
+NETWORK:
+*
